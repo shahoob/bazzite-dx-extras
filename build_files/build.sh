@@ -25,7 +25,7 @@ set -ouex pipefail
 
 # Copy over system files
 
-cp -avf "/ctx/files/." /
+cp -avf "/ctx/files/**/*" /
 
 # Remove packages
 
